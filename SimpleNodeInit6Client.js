@@ -10,8 +10,8 @@ var upass = 'password';
 var uhome = 'channel';
 
 const client = net.createConnection(options, () => {
-    remota = net.remoteAddress;
-    remotp = net.remotePort;
+    //remota = net.remoteAddress; not req
+    //remotp = net.remotePort;
 });
 
 client.on('data', data => {
